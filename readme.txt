@@ -12,3 +12,8 @@
 11）ad_info                          供自测文件读取的广告文件，模拟广告配置
 12）request_info                     供自测文件读取的请求文件，模拟请求数据
 
+self_test.cpp文件中引入了环境变量，用于控制日志打印，请在执行bin文件前执行相关命令：
+export InvertedTest=true
+否则，从self_test.cpp文件中移除相关代码。
+
+实现分享： https://studygolang.com/topics/12531
